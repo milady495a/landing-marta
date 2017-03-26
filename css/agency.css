@@ -316,6 +316,7 @@ section h4.service-heading,
   position: relative;
   max-width: 400px;
   margin: 0 auto;
+  box-shadow: -1px -1px 12px #CCC;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   background: rgba(254, 209, 54, 0.9);
@@ -353,6 +354,7 @@ section h4.service-heading,
   background-color: white;
   text-align: center;
   padding: 25px;
+  box-shadow: 1px 1px 12px #CCC;
 }
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
