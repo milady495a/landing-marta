@@ -6,6 +6,7 @@
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px
 }
 .text-muted {
   color: #777777;
@@ -14,7 +15,7 @@ body {
   color: #fed136;
 }
 p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.75;
 }
 p.large {
@@ -45,6 +46,9 @@ h6 {
   font-family: "Amatic SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
   /*font-weight: 400;*/
 
+}
+h4 {
+    font-size:23px
 }
 .img-centered {
   margin: 0 auto;
@@ -693,7 +697,7 @@ ul.social-buttons li a:active {
   margin-top: 0;
 }
 .portfolio-modal .modal-content img {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .portfolio-modal .close-modal {
   position: absolute;
@@ -750,4 +754,8 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: #fed136;
+}
+
+.sombra-img {
+    box-shadow: 1px 1px 2px #DDD;
 }
