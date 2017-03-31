@@ -695,6 +695,7 @@ ul.social-buttons li a:active {
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 30px;
   margin-top: 0;
+  font-size:16px;
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 0px;
