@@ -759,3 +759,8 @@ img::-moz-selection {
   padding-top:29px
 }
 
+.slider_text {
+  font-size: 28px;
+  padding-left: 30px;
+}
+
