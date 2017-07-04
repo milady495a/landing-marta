@@ -1,4 +1,4 @@
-var total_slides = 3;
+var total_slides = 5;
 
 function nextSlide() {
 	// Cogemos la slide actual visible
