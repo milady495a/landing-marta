@@ -3,6 +3,14 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ 
+/* Custom Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Amatica+SC:400,700');
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
+@import url('https://fonts.googleapis.com/css?family=Yesteryear');
+ 
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -19,9 +27,9 @@ p {
   font-size: 17px;
   line-height: 1.75;
 }
-p.large {
-  font-size: 20px;
-}
+
+p.large { font-size: 20px; }
+
 a,
 a:hover,
 a:focus,
@@ -29,23 +37,18 @@ a:active,
 a.active {
   outline: none;
 }
-a {
-  color: #fed136;
-}
+
+a {color: #fed136;}
+
 a:hover,
 a:focus,
 a:active,
 a.active {
   color: #fec503;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Amatic SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*font-weight: 400;*/
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Amatica SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
 
 }
 h4 {
@@ -777,4 +780,13 @@ img::-moz-selection {
   text-align: right;
   color: #727272;
   padding-left: 30px;
+}
+
+#bs-example-navbar-collapse-1 {
+  font-size: 15px;
+}
+
+.fixed-height {
+  height: 250px;
+  overflow: hidden;
 }
