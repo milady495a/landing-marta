@@ -117,9 +117,11 @@ fieldset[disabled] .btn-primary.active {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  border-radius: 3px;
-  font-size: 18px;
+  border-radius: 4px;
+  font-size: 15px;
   padding: 20px 40px;
+  text-shadow: 1px 1px 0 #666;
+  opacity: 1;
 }
 .btn-xl:hover,
 .btn-xl:focus,
@@ -209,6 +211,9 @@ fieldset[disabled] .btn-xl.active {
   background-color: #DBA4F0;
 }
 @media (min-width: 768px) {
+  .btn-xl {
+    font-size: 18px;
+  }
   .navbar-custom {
     background-color: transparent;
     padding: 25px 0;
@@ -237,20 +242,21 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  /*background-image: url('../img/header-bg.jpg');*/
+  /*background-color: #000;*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
   text-align: center;
   color: white;
+  opacity: 0.7;
 }
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
+  text-shadow: 2px 2px 1px #333;
+  opacity: 1;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -482,6 +488,11 @@ section h4.service-heading,
   margin-bottom: 0;
 }
 @media (min-width: 768px) {
+  
+  .fixed-height {
+    height: 250px;
+    overflow: hidden;
+  }
   .timeline:before {
     left: 50%;
   }
@@ -782,11 +793,11 @@ img::-moz-selection {
   padding-left: 30px;
 }
 
-#bs-example-navbar-collapse-1 {
-  font-size: 15px;
+#logo {
+  text-shadow: 1px 1px 0 #333;
 }
 
-.fixed-height {
-  height: 250px;
-  overflow: hidden;
+#bs-example-navbar-collapse-1 {
+  font-size: 15px;
+  text-shadow: 1px 1px 1px #666;
 }
