@@ -490,7 +490,7 @@ section h4.service-heading,
 @media (min-width: 768px) {
   
   .fixed-height {
-    height: 250px;
+    height: 200px;
     overflow: hidden;
   }
   .timeline:before {
