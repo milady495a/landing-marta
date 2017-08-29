@@ -130,8 +130,23 @@
           <h3 class="section-subheading text-muted">Algunas cosillas que he hecho.</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-3 col-sm-6 portfolio-item wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.1s">
+      <!-- Bloque de botones isotope -->
+      <div class="button-group filter-button-group text-center">
+        <button class="btn btn-sm btn-primary" data-filter="*">Todos</button>
+        <button class="btn btn-sm btn-primary" data-filter=".a_literaria">Asesoría literaria</button>
+        <button class="btn btn-sm btn-primary" data-filter=".copywritting">copywritting</button>
+        <button class="btn btn-sm btn-primary" data-filter=".correccion">Corrección</button>
+        <button class="btn btn-sm btn-primary" data-filter=".marketing">Marketing</button>
+        <button class="btn btn-sm btn-primary" data-filter=".inf_lectura">Inf. de lectura</button>
+        <button class="btn btn-sm btn-primary" data-filter=".proofreading">Proofreading</button>
+        <button class="btn btn-sm btn-primary" data-filter=".dis_web">Diseño web</button>
+        <button class="btn btn-sm btn-primary" data-filter=".asesoria">Asesoría web</button>
+        <!-- <button class="btn btn-sm btn-primary" data-filter=":not(.a_literaria)">not a_literaria</button> -->
+        <!-- <button class="btn btn-sm btn-primary" data-filter=".a_literaria:not(.copywritting)">a_literaria but not copywritting</button> -->
+      </div>
+      <!-- Grid de portfolios filtrados por isotope -->
+      <div class="row grid">
+        <div class="col-md-3 col-sm-6 portfolio-item grid-item a_literaria correccion">
           <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -144,7 +159,7 @@
             <h4>Asesoría literaria / Corrección</h4>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 portfolio-item wow fadeIn" data-wow-duration="1.2s">
+        <div class="col-md-3 col-sm-6 portfolio-item grid-item a_literaria correccion">
           <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -157,7 +172,7 @@
             <h4>Asesoría literaria / Corrección</h4>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 portfolio-item wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.3s">
+        <div class="col-md-3 col-sm-6 portfolio-item grid-item copywritting marketing">
           <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -170,7 +185,7 @@
             <h4>Copywriting / Marketing</h4>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 portfolio-item wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.2s">
+        <div class="col-md-3 col-sm-6 portfolio-item grid-item inf_lectura">
           <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -183,7 +198,7 @@
             <h4>Informe de lectura editorial</h4>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 portfolio-item wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.2s">
+        <div class="col-md-3 col-sm-6 portfolio-item grid-item proofreading correccion">
           <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -196,7 +211,7 @@
             <h4>Proofreading / Corrección</h4>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 portfolio-item wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.3s">
+        <div class="col-md-3 col-sm-6 portfolio-item grid-item dis_web copywritting">
           <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -209,7 +224,7 @@
             <h4>Diseño web / Copywriting</h4>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 portfolio-item wow fadeIn" data-wow-duration="1.2s" data-wow-delay="0.1s">
+        <div class="col-md-3 col-sm-6 portfolio-item grid-item asesoria correccion">
           <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -222,7 +237,7 @@
             <h4>Asesoría web / Corrección</h4>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6 portfolio-item wow fadeIn" data-wow-duration="1.2s">
+        <div class="col-md-3 col-sm-6 portfolio-item grid-item proofreading correccion">
           <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -235,6 +250,8 @@
             <h4>Proofreading / Corrección</h4>
           </div>
         </div>
+      </div>
+      <div class="row">
         <div class="col-sm-12 portfolio-item wow fadeIn" data-wow-duration="1.5s">
           <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
             <div class="portfolio-hover">
@@ -1208,6 +1225,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 
   <script type="text/javascript">
 
@@ -1216,6 +1234,22 @@
 
     // Encendemos wow, such easy!
     new WOW().init();
+
+
+    // Encendemos isotope
+    var $grid = $('.grid').isotope({
+      // options
+      itemSelector: '.grid-item',
+      layoutMode: 'fitRows'
+    });
+
+    // funcion molona para que solo tengas que preocuparte del html :)
+    // Coge el valor "data-filter" de los botones de 'filter-button-group', lo busca en las clases de los proyectos y los filtra
+    $('.filter-button-group').on( 'click', 'button', function() {
+      var filterValue = $(this).attr('data-filter');
+      $grid.isotope({ filter: filterValue });
+    });
+
 
     // Configuración del slider
     var total_slides = 5;
