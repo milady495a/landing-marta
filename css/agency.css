@@ -63,20 +63,24 @@ h4 {
 .bg-darkest-gray {
   background-color: #222222;
 }
-.btn-primary {
-  color: white;
-  background-color: #1ABC9C;
-  border-color: #1ABC9C;
+.btn {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.35s all;
+}
+.btn-secondary {
+  background-color: #C277DF;
   font-weight: 700;
 }
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-  color: white;
+.btn-secondary:active:focus {
+  background-color: #DBA4F0;
+}
+.btn-primary {
+  background-color: #16A085;
+  border-color: #1ABC9C;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
   background-color: #3CC8AD;
   border-color: #3CC8AD;
 }
@@ -441,13 +445,13 @@ section h4.service-heading,
 #portfolio * {
   z-index: 2;
 }
-#logo {
-  line-height: 25px;
-}
 @media (min-width: 767px) {
+
+  .affix-top #logo { line-height: 0; }
+  .affix #logo { line-height: 25px; }
+
   #logo {
     text-shadow: 1px 1px 0 #333;
-    line-height: 0;
   }
   #portfolio .portfolio-item {
     margin: 0 0 30px;
@@ -841,6 +845,6 @@ img::-moz-selection {
 }
 
 .filter-button-group {
-  margin-bottom:15px;
+  margin-bottom:25px;
   line-height:35px
 }

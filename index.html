@@ -130,9 +130,10 @@
           <h3 class="section-subheading text-muted">Algunas cosillas que he hecho.</h3>
         </div>
       </div>
-      <!-- Bloque de botones isotope -->
-      <div class="button-group filter-button-group text-center">
-        <button class="btn btn-sm btn-primary" data-filter="*">Todos</button>
+      <!-- Bloque de botones isotope, FUNCIONA PORQUE TIENE LA CLASE 'filter-button-group' !! -->
+      <!-- <p><small>(Pincha para filtrar)</small></p> -->
+      <div class="row button-group filter-button-group text-center">
+        <button class="btn btn-secondary" data-filter="*">Todos</button>
         <button class="btn btn-sm btn-primary" data-filter=".a_literaria">Asesoría literaria</button>
         <button class="btn btn-sm btn-primary" data-filter=".copywritting">copywritting</button>
         <button class="btn btn-sm btn-primary" data-filter=".correccion">Corrección</button>
@@ -1246,6 +1247,13 @@
     // funcion molona para que solo tengas que preocuparte del html :)
     // Coge el valor "data-filter" de los botones de 'filter-button-group', lo busca en las clases de los proyectos y los filtra
     $('.filter-button-group').on( 'click', 'button', function() {
+
+      // Ponemos todos los rojos a verdes
+      $(".filter-button-group button.btn-secondary").removeClass("btn-secondary").addClass("btn-primary btn-sm");
+
+      // Ponemos rojo el seleccionado
+      $(this).removeClass("btn-primary btn-sm").addClass("btn-secondary");
+
       var filterValue = $(this).attr('data-filter');
       $grid.isotope({ filter: filterValue });
     });
