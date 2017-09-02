@@ -434,18 +434,26 @@ section h4.service-heading,
   margin: 0 auto;
   background-color: white;
   text-align: center;
-  padding: 25px;
+  padding: 15px 7px;
   box-shadow: 1px 1px 12px #CCC;
 }
-#portfolio .portfolio-item .portfolio-caption h4 {
+#portfolio .portfolio-item .portfolio-caption h5 {
   text-transform: none;
   margin: 0;
+  font-size: 30px;
+  /*letter-spacing: 1px;*/
 }
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
+}
+#portfolio .portfolio-item .portfolio-caption.inverse {
+  background-color: #444;
+}
+#portfolio .portfolio-item .portfolio-caption.inverse h5 {
+  color: #fff;
 }
 #portfolio * {
   z-index: 2;
@@ -595,6 +603,9 @@ section h4.service-heading,
   }
 }
 @media (min-width: 992px) {
+  .col-md-25 {
+    width: 20%;
+  }
   .timeline > li {
     min-height: 150px;
   }
