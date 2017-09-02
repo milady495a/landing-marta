@@ -441,7 +441,7 @@ section h4.service-heading,
   text-transform: none;
   margin: 0;
   font-size: 30px;
-  /*letter-spacing: 1px;*/
+  font-weight: normal;
 }
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
