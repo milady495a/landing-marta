@@ -395,6 +395,7 @@ section h4.service-heading,
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
+  min-width: 184px;
   max-width: 400px;
   margin: 0 auto;
   box-shadow: -1px -1px 12px #CCC;
