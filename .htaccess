@@ -1,5 +1,7 @@
 Options -Indexes
 
+Content-Type: text/html; charset=UTF-8
+
 SetEnv ZEND_OPTIMIZER 1
 SetEnv IONCUBE 0
 SetOutputFilter DEFLATE
