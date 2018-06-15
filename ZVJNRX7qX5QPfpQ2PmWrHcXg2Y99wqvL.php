@@ -14,6 +14,7 @@ function execPrint($command) {
 <html>
 <head>
 <title>Sync repo</title>
+<link rel="icon" href="img/favicon_sushi.png">
 </head>
 <body>
 <div style="text-align: center"><!--  -->
