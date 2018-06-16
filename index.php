@@ -1705,26 +1705,27 @@
     new WOW().init();
 
 
-    // Encendemos isotope
-    var $grid = $('.grid').isotope({
-      // options
-      itemSelector: '.grid-item',
-      layoutMode: 'fitRows'
-    });
+    // Esperamos a que cargen las imagenes del grid
+    $('.grid').imagesLoaded( function() {
 
-    // funcion molona para que solo tengas que preocuparte del html :)
-    // Coge el valor "data-filter" de los botones de 'filter-button-group', lo busca en las clases de los proyectos y los filtra
-    $('.filter-button-group').on( 'click', 'button', function() {
+      // Encendemos isotope
+      var $grid = $('.grid').isotope({
+        // options
+        itemSelector: '.grid-item',
+        layoutMode: 'fitRows'
+      });
 
-      // Ponemos todos los rojos a verdes
-      $(".filter-button-group button.btn-secondary").removeClass("btn-secondary").addClass("btn-primary btn-sm");
+      // funcion molona para que solo tengas que preocuparte del html :)
+      // Coge el valor "data-filter" de los botones de 'filter-button-group', lo busca en las clases de los proyectos y los filtra
+      $('.filter-button-group').on( 'click', 'button', function() {
 
-      // Ponemos rojo el seleccionado
-      $(this).removeClass("btn-primary btn-sm").addClass("btn-secondary");
+        // Ponemos todos los rojos a verdes
+        $(".filter-button-group button.btn-secondary").removeClass("btn-secondary").addClass("btn-primary btn-sm");
 
-      var filterValue = $(this).attr('data-filter');
+        // Ponemos rojo el seleccionado
+        $(this).removeClass("btn-primary btn-sm").addClass("btn-secondary");
 
-      $grid.imagesLoaded().progress( function() {
+        var filterValue = $(this).attr('data-filter');
         $grid.isotope({ filter: filterValue });
       });
     });
