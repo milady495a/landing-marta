@@ -389,14 +389,14 @@ section h4.service-heading,
   text-transform: none;
 }
 #portfolio .portfolio-item {
-  margin: 0 0 15px;
+  min-width: 184px;
+  max-width: 400px;
+  /* margin: 0 0 15px; */
   right: 0;
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
-  min-width: 184px;
-  max-width: 400px;
   margin: 0 auto;
   box-shadow: -1px -1px 12px #CCC;
 }
