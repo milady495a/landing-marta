@@ -13,16 +13,26 @@
 
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 17px;
   webkit-tap-highlight-color: #fed136;
 }
-.text-muted {
-  color: #777777;
-}
-.text-primary {
+
+.text-muted { color: #777; }
+.text-primary { color: #C277DF; }
+
+.marta {
+  font-family: "Yesteryear", Arial, sans-serif;
   color: #C277DF;
+  font-size: 34px;
 }
+
+.tornero {
+  font-family: "Roboto Slab", Arial, sans-serif;
+  color: white;
+  font-size: 22px;
+}
+
 p {
   font-size: 17px;
   line-height: 1.75;
@@ -120,17 +130,18 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn-xl {
-  color: white;
-  background-color: #1ABC9C;
-  border-color: #1ABC9C;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+  background-color: #1ABC9C;
+  border-color: #29CBAB;
+  color: #FFF;
   font-weight: 700;
   border-radius: 4px;
   font-size: 15px;
-  padding: 20px;
-  text-shadow: 1px 1px 0 #666;
-  opacity: 1;
+  padding: 20px 25px;
+  text-shadow: 1px 1px #666;
+  letter-spacing: 2px;
+  box-shadow: 1px 1px 3px #333;
 }
 .btn-xl:hover,
 .btn-xl:focus,

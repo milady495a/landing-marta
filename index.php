@@ -1,4 +1,7 @@
 <?php require 'datos/funciones.php' ?>
+<?php
+  $baseurl = "https://";
+?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -12,17 +15,18 @@
   <meta name="classification" content="Soy asesora, correctora, copywriter... Todo está unido: el copywriting y la literatura van de plasmar lo que te emociona, que tus lectores disfruten y quieran más de ti. Creo que el mundo está lleno de grandes ideas que necesitan un empujoncito, y me honra poder trabajar con personas como tú que quieren hacerlas realidad. Pero, ojo, tú también vas a trabajar. Necesito tu entusiasmo, tu inspiración y tu historia para hacerles llegar a tus lectores esa idea que llevas dentro y necesitas sacar. ¿Qué has venido a ofrecer al mundo?">
   <meta name="keywords" content="Literatura, corrección, asesoría literaria, copywriting, web">
   <meta name="publisher" content="Marta Tornero">
-  <meta name="zipcode" content="46006">
   <meta name="city" content="Valencia">
   <meta name="country" content="ES">
 
+  <?php if (!isMobile()): ?>
   <meta property="og:title" content="Marta Tornero | Literatura &amp; web" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://mtornero.com" />
-  <meta property="og:image" content="http://mtornero.com/vids/mt.jpg" />
+  <meta property="og:url" content="<?=$baseurl?>mtornero.com" />
+  <meta property="og:image" content="<?=$baseurl?>mtornero.com/vids/mt.jpg" />
   <meta property="og:description" content="¿Tienes una idea o un libro? Te ayudo a que llegue a tu público con el mismo entusiasmo que tú sentiste cuando se te encendió la bombilla. Querrán más de ti." />
   <meta property="og:locale" content="es_ES" />
-  <meta property="og:video" content="http://mtornero.com/vids/mt.mp4" />
+  <meta property="og:video" content="<?=$baseurl?>mtornero.com/vids/mt.mp4" />
+  <?php endif ?>
 
   <!-- Favicon -->
   <link rel="icon" href="img/fav/mtornero.png" type="image/png">
@@ -32,7 +36,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous" />
 
-  <link href="css/agency.css?v=2" rel="stylesheet">
+  <link href="css/agency.css?v=2.1" rel="stylesheet">
 
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -55,15 +59,10 @@
           <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
         </button>
         <a class="navbar-brand page-scroll" id="logo" href="#page-top">
-          <span style="font-family:Yesteryear; font-size:34px; color:#C277DF">
-            Marta
-          </span>
-          <span style="font-family:Roboto Slab; font-size:22px; color:white">
-            TORNERO
-          </span>
+          <span class="marta">Marta</span>
+          <span class="tornero">TORNERO</span>
         </a>
       </div>
-
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
           <li class="hidden"><a href="#page-top"></a></li>
