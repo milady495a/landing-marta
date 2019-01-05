@@ -22,14 +22,14 @@
 ?>
 
 <!-- Desplegable Section -->
-<section id="desplegable">
+<section id="faq">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">
           Otras preguntas frecuentes
         </h2>
-        <!-- <h3 class="section-subheading text-muted"></h3> -->
+        <h3 class="section-subheading text-muted"></h3>
       </div>
       <div class="col-lg-12">
         <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">

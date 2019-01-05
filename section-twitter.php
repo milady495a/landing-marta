@@ -19,7 +19,7 @@
 ?>
 
 <!-- Twitter -->
-<section id="tienes-redes" class="bg-light-gray">
+<section id="redes" class="bg-light-gray">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">

@@ -14,7 +14,7 @@
       Si quieres conocerme puedes:<br>
       <div class="mt-20">
       - Seguirme en <a href="'.$twitter.'" target="_blank">Twitter</a><br>
-      - Escribirme a <a href="mailto:marta@mtornero.com?subject=Mensaje desde mtornero&body=Hola Marta!">marta@<span class="text-primary">mtornero</span>.com</a>
+      - Escribirme a <a href="mailto:marta@mtornero.com?subject=Mensaje desde mtornero.com&body=Hola Marta!" target="_blank">marta@<span class="text-primary">mtornero</span>.com</a>
       </div>',
     ]
   ];
@@ -22,7 +22,7 @@
 ?>
 
 <!-- About Section -->
-<section id="about" class="bg-light-gray">
+<section id="contacto" class="bg-light-gray">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">

@@ -21,12 +21,11 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden"><a href="#page-top"></a></li>
-        <li><a class="page-scroll" href="#services">Servicios</a></li>
+        <li><a class="page-scroll" href="#hola">Hola</a></li>
         <li><a class="page-scroll" href="#portfolio">Porfolio</a></li>
-        <li><a class="page-scroll" href="#formacion">Formación</a></li>
-        <li><a class="page-scroll" href="#about">Sobre mí</a></li>
-        <li><a class="page-scroll" href="#testimonios">Testimonios</a></li>
-        <li><a class="page-scroll" href="#contact">Contacta conmigo</a></li>
+        <li><a class="page-scroll" href="#redes">Redes</a></li>
+        <li><a class="page-scroll" href="#faq">FAQ</a></li>        
+        <li><a class="page-scroll" href="#contacto">Contacta conmigo</a></li>
       </ul>
     </div>
   </div>

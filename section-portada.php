@@ -68,7 +68,7 @@
       <div class="titulaco">
         ¡Hola! Soy <span class="text-primary">Marta</span><br>
         y este es mi<br>
-        blog personal
+        blog <span class="text-primary">personal</span>
       </div>
 
       <!-- Aqui generamos los cuadrados de fondo -->

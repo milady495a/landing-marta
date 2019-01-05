@@ -60,7 +60,7 @@
 ?>
 
 <!-- About Section -->
-<section id="about" class="bg-light-gray">
+<section id="hola" class="bg-light-gray">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
