@@ -14,8 +14,7 @@ function asset($url, $append = '/node_modules') {
   return $baseurl . $_SERVER['SERVER_NAME'] . substr($_SERVER['REQUEST_URI'], 0, strrpos($_SERVER['REQUEST_URI'], '/')) . $append . "/" . $url;
 }
 
-
-
+// Detecta si está accediendo desde un dispositivo movil
 function isMobile() {
   $useragent = $_SERVER['HTTP_USER_AGENT'];
 
