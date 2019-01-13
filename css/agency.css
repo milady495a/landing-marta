@@ -6,16 +6,16 @@
 
 /* Custom Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-@import url('https://fonts.googleapis.com/css?family=Amatica+SC:400,700');
+/* @import url('https://fonts.googleapis.com/css?family=Amatica+SC:400,700'); */
 @import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700');
 @import url('https://fonts.googleapis.com/css?family=Yesteryear');
 
 body {
   overflow-x: hidden;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
-  webkit-tap-highlight-color: #fed136;
+  webkit-tap-highlight-color: #1ABC9C;
 }
 
 .text-muted { color: #777; }
@@ -48,16 +48,15 @@ a.active {
   outline: none;
 }
 
-a {color: #fed136;}
-
-a:hover,
-a:focus,
-a:active,
-a.active {
-  color: #fec503;
+a {
+  color: #1ABC9C;
 }
+
+a:hover, a:focus, a:active, a.active {
+  color: #087A64;
+}
+
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Amatica SC', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
 
 }
@@ -79,7 +78,6 @@ h5 {
   background-color: #222222;
 }
 .btn {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: 0.35s all;
@@ -122,15 +120,14 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
 }
 .btn-primary .badge {
   color: #1ABC9C;
   background-color: white;
 }
 .btn-xl {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   background-color: #1ABC9C;
   border-color: #29CBAB;
@@ -172,11 +169,11 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
 }
 .btn-xl .badge {
-  color: #fed136;
+  color: #1ABC9C;
   background-color: white;
 }
 .navbar-custom {
@@ -199,7 +196,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle {
   background-color: #C277DF;
   border-color: #C277DF;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 12px;
@@ -209,7 +205,6 @@ fieldset[disabled] .btn-xl.active {
   background-color: #C277DF;
 }
 .navbar-custom .nav li a {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
@@ -318,60 +313,6 @@ section {
     font-size: 1.5em;
   }
 }
-header {
-  /*background-image: url('../img/header-bg.jpg');*/
-  /*background-color: #000;*/
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  color: white;
-  /*opacity: 0.7;*/
-}
-header .intro-text {
-  padding-top: 100px;
-  padding-bottom: 50px;
-  text-shadow: 2px 2px 1px #333;
-  opacity: 1;
-}
-header .intro-text .intro-lead-in {
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-style: italic;
-  font-size: 22px;
-  line-height: 22px;
-  margin-bottom: 25px;
-}
-header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
-}
-@media (min-width: 768px) {
-  header .intro-text {
-    padding-top: 325px;
-    padding-bottom: 345px;
-  }
-  header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic;
-    font-size: 30px;
-    line-height: 40px;
-    margin-bottom: 25px;
-  }
-  header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
-  }
-}
 section h2.section-heading {
   font-size: 60px;
   margin-top: 0;
@@ -472,30 +413,22 @@ section h4.service-heading,
 }
 @media (min-width: 767px) {
 
+  /* A partir de 767px de resolucion */
+
   .affix-top #logo { line-height: 0; }
   .affix #logo { line-height: 25px; }
 
   #logo {
     text-shadow: 1px 1px 0 #333;
   }
-  #portfolio .portfolio-item {
-    margin: 0 0 10px;
-  }
+}
+#portfolio .portfolio-item {
+  margin: 0 0 10px;
 }
 .timeline {
   list-style: none;
   padding: 0;
   position: relative;
-}
-.timeline:before {
-  top: 0;
-  bottom: 0;
-  position: absolute;
-  content: "";
-  width: 2px;
-  background-color: #f1f1f1;
-  left: 40px;
-  margin-left: -1.5px;
 }
 .timeline > li {
   margin-bottom: 50px;
@@ -512,7 +445,7 @@ section h4.service-heading,
 }
 .timeline > li .timeline-panel {
   width: 100%;
-  float: right;
+  /* float: right; */
   padding: 0 20px 0 100px;
   position: relative;
   text-align: left;
@@ -578,6 +511,13 @@ section h4.service-heading,
 .timeline .timeline-body > ul {
   margin-bottom: 0;
 }
+
+.col-md-25 {
+  width: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 @media (min-width: 768px) {
 
   .fixed-height {
@@ -617,11 +557,6 @@ section h4.service-heading,
 @media (min-width: 992px) {
   .col-md-25 {
     width: 20%;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  .timeline > li {
-    min-height: 150px;
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px;
@@ -641,9 +576,6 @@ section h4.service-heading,
   }
 }
 @media (min-width: 1200px) {
-  .timeline > li {
-    min-height: 170px;
-  }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px;
   }
@@ -698,31 +630,27 @@ section#contact .form-group textarea.form-control {
   height: 236px;
 }
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #1ABC9C;
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
 section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
@@ -731,24 +659,22 @@ section#contact .text-danger {
   color: #e74c3c;
 }
 footer {
-  padding: 25px 0;
+  padding: 70px 0;
   text-align: center;
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
 ul.social-buttons {
-  margin-bottom: 0;
+  margin: 20px;
 }
 ul.social-buttons li a {
   display: block;
@@ -852,11 +778,11 @@ ul.social-buttons li a:active {
 }
 ::-moz-selection {
   text-shadow: none;
-  background: #fed136;
+  background: #1ABC9C;
 }
 ::selection {
   text-shadow: none;
-  background: #fed136;
+  background: #1ABC9C;
 }
 img::selection {
   background: transparent;
@@ -874,7 +800,196 @@ img::-moz-selection {
   text-shadow: 1px 1px 1px #666;
 }
 
+/* #bs-example-navbar-collapse-1 > ul > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5px;
+} */
+
 .filter-button-group {
   margin-bottom:25px;
   line-height:35px
+}
+
+#portada { padding: 100px 0 0; }
+.cuadroHead { padding: 0; }
+.cuadroHead > img {
+  display: block;
+  filter: blur(4px);
+  transition: filter 0.15s linear;
+}
+.cuadroHead > img:hover {
+  box-shadow: none !important;
+  filter: blur(0);
+}
+.titulaco {
+  position: absolute;
+  text-transform: uppercase;
+  margin-top: 10vh;
+  margin-left: 5%;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  color: #dfe4ea;
+  text-shadow: 1px 1px 0 #2c3e50;
+  /* background: rgba(0, 0, 0, 0.2); */
+  /* text-align: justify; */
+}
+@media (min-width: 768px) {
+  .titulaco {
+    font-size: 75px;
+    margin-top: 25vh;
+    line-height: 85px;
+  }
+}
+
+.mb-15 {margin-bottom: 15px !important; }
+.mt-20 {margin-top: 20px; }
+.mt-45 {margin-top: 45px !important; }
+.mt-150 {margin-top: 150px !important; }
+
+.modal_text {
+  text-align: justify;
+}
+.letra-convers {
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #aaa;
+}
+.timeline-panel {
+  padding: 0 !important;
+  width: 82% !important;
+  margin-top: 30px;
+}
+.timeline:before {
+  background-color: transparent;
+}
+.timeline > li {
+  margin: 0;
+}
+.panel, .panel-heading {
+  background-color: #fff !important;
+  border: 0 !important;
+}
+.panel-body {
+  font-size: 21px;
+}
+.panel-title {
+  font-size: 30px;
+}
+.panel-title > a:hover, .panel-title > a:active, .panel-title > a:focus {
+  text-decoration: none;
+}
+.type-it {
+  margin-right: -10px;
+}
+@media (min-width: 768px) {
+  .timeline-panel {
+    margin-top: 0;
+    width: 55% !important;
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+/* fadeInLeft */
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+/* fadeInRight */
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+/* Bob */
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
 }

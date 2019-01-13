@@ -8,11 +8,12 @@
       ¿Tienes redes?',
     ],[
       'class' => 'timeline-inverted fadeInRight',
+      'delay' => '0.7s',
       'align' => 'text-right',
       'texto' => 'Bueno... Tener, tengo,
       como todo el mundo,
       otra cosa es que publique.<br>
-      Mi twitter:',
+      <span class="text-primary">Mi twitter</span>:',
     ]
   ];
 
@@ -25,7 +26,7 @@
       <div class="col-lg-12">
         <ul class="timeline">
           <?php foreach ($conversacion as $c): ?>
-            <li class="wow <?= $c['class'] ?>">
+            <li class="wow <?= $c['class'] ?>" data-wow-offset="10" data-wow-delay="<?= isset($c['delay']) ? $c['delay'] : 0 ?>">
               <div class="timeline-panel">
                 <div class="letra-convers <?= $c['align'] ?>">
                   <?= $c['texto'] ?>

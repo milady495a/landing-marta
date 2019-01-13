@@ -445,7 +445,7 @@
       'modal_footer' => '<li>Fecha: Septiembre 2016</li>
       <li>Cliente: <i>Proyecto propio</i></li>
       <li>Categoría: Asesoría y corrección para escritores</li>',
-    ]
+    ],
   ];
 
 ?>
@@ -520,7 +520,7 @@
             </div>
             <div class="row">
               <?php foreach ($p['modal_imgs'] as $img): ?>
-                <img class="img-responsive img-centered thumbnail mb-2" src="img/loading.gif" data-src="img/portfolio/<?= $img['src'] ?>" alt="<?= $img['alt'] ?>">
+                <img class="img-responsive img-centered thumbnail mb-15" src="img/loading.gif" data-src="img/portfolio/<?= $img['src'] ?>" alt="<?= $img['alt'] ?>">
               <?php endforeach ?>
               <ul class="list-inline">
                 <?= $p['modal_footer'] ?>
