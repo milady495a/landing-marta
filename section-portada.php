@@ -2,58 +2,58 @@
 
   $portfolios = [
     [
-      'src' => '300a_450.jpg',
-      'alt' => 'asesoría literaria y corrección',
+      'src' => 'img_portada_1.jpg',
+      'alt' => '',
     ],[
-      'src' => 'centromana.jpg',
+      'src' => 'img_portada_2.jpg',
       'alt' => 'copywriting marketing',
     ],[
-      'src' => 'aez_450_t.jpg',
+      'src' => 'img_portada_3.jpg',
       'alt' => 'asesoría literaria corrección',
     ],[
-      'src' => 'oxfdnb_450_t.jpg',
+      'src' => 'img_portada_4.jpg',
       'alt' => 'corrección ortotipográfica',
     ],[
-      'src' => 'racism_450_t.jpg',
+      'src' => 'img_portada_5.jpg',
       'alt' => 'corrección ortotipográfica',
     ],[
-      'src' => 'ivtn_450_t.jpg',
+      'src' => 'img_portada_6.jpg',
       'alt' => 'asesoría web corrección',
     ],[
-      'src' => 'byn_450.jpg',
+      'src' => 'img_portada_7.jpg',
       'alt' => 'informe de lectura',
     ],[
-      'src' => 'dl_450_t.jpg',
+      'src' => 'img_portada_8.jpg',
       'alt' => 'informe de lectura editorial',
     ],[
-      'src' => 'grammaressay.jpg',
+      'src' => 'img_portada_9.jpg',
       'alt' => 'copyediting corrección de estilo editing',
     ],[
-      'src' => 'cenainformal.jpg',
+      'src' => 'img_portada_10.jpg',
       'alt' => 'asesoría literaria corrección',
     ],[
-      'src' => 'the_body_massamagrell.jpg',
+      'src' => 'img_portada_11.jpg',
       'alt' => 'copywriting marketing',
     ],[
-      'src' => 'diosesenjaulados.jpg',
+      'src' => 'img_portada_12.jpg',
       'alt' => 'asesoría literaria',
     ],[
-      'src' => 'tagdisruptor.jpg',
+      'src' => 'img_portada_13.jpg',
       'alt' => 'copywriting marketing',
     ],[
-      'src' => 'barquitos.jpg',
+      'src' => 'img_portada_14.jpg',
       'alt' => 'copywriting marketing',
     ],[
-      'src' => 'writermuse.jpg',
+      'src' => 'img_portada_15.jpg',
       'alt' => 'asesoría literaria corrección para escritores writermuse',
     ],[
-      'src' => 'writermuse.jpg',
+      'src' => 'img_portada_16.jpg',
       'alt' => 'asesoría literaria corrección para escritores writermuse',
     ],[
-      'src' => 'writermuse.jpg',
+      'src' => 'img_portada_17.jpg',
       'alt' => 'asesoría literaria corrección para escritores writermuse',
     ],[
-      'src' => 'writermuse.jpg',
+      'src' => 'img_portada_18.jpg',
       'alt' => 'asesoría literaria corrección para escritores writermuse',
     ]
   ];
