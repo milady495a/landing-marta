@@ -14,11 +14,11 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="hidden"><a href="#page-top"></a></li>
         <li><a class="page-scroll" href="#inicio">Inicio</a></li>
-        <li><a href="/blog">Blog</a></li>
         <li><a class="page-scroll" href="#portfolio">Porfolio</a></li>
         <li><a class="page-scroll" href="#redes">Redes</a></li>
         <li><a class="page-scroll" href="#faq">FAQ</a></li>
         <li><a class="page-scroll" href="#contacto">Contacta conmigo</a></li>
+        <a class="btn btn-primary boton-blog" href="/blog">Blog</a>
       </ul>
     </div>
   </div>
