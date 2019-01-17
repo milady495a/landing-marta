@@ -3,19 +3,24 @@
   $desplegables = [
     [
       'id' => 'collapseOne',
-      'class' => 'in',
-      'titulo' => '¿Qué ha sido de WriterMuse?',
-      'texto' => 'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven\'t heard of them accusamus labore sustainable VHS.',
+      'class' => '',
+      'titulo' => '¿Qué es MTORNERO?',
+      'texto' => 'Es mi blog personal, donde entra todo lo que me apetece escribir en cada momento: literatura, marketing, creatividad, crecimiento personal... ¡Abajo con la tiranía del blog nicho! ¡El SEO ha muerto; larga vida al SEO!',
     ],[
       'id' => 'collapseTwo',
-      'class' => '',
-      'titulo' => '¿Sigues haciendo informes de lectura y correcciones?',
-      'texto' => 'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven\'t heard of them accusamus labore sustainable VHS.',
+      'class' => 'in',
+      'titulo' => '¿Qué ha sido de WriterMuse?',
+      'texto' => '<a href="https://www.writermuse.es">WriterMuse</a> y todos los recursos y artículos de escritura creativa que creé están todavía disponibles, pero no estoy actualizando la web. Si te digo la verdad, me he dado cuenta de que invertía demasiado tiempo escribiendo sobre escribir, tiempo que ahora necesito para escribir mis propias obras. Quién sabe, tal vez vuelva, pero si lo hace será algo muy diferente de lo que fue en sus inicios.',
     ],[
       'id' => 'collapseThree',
       'class' => '',
-      'titulo' => '¿Qué es MTORNERO?',
-      'texto' => 'Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven\'t heard of them accusamus labore sustainable VHS.',
+      'titulo' => '¿Sigues haciendo informes de lectura y correcciones?',
+      'texto' => 'Ahora estoy dedicándome por completo a mis propios proyectos de escritura. Disfruto un montón leyendo y analizando los manuscritos inéditos de escritores, por lo que estoy segura de que en un futuro volveré a la carga, pero hasta entonces si buscas que un profesional te ayude a pulir tu obra, puedo recomendarte a la gente en la que confío: escríbeme.',
+    ],[
+      'id' => 'collapseFour',
+      'class' => '',
+      'titulo' => 'Cuéntame un poco más sobre ti',
+      'texto' => 'Veamos... Vivo en Valencia, España. Me encanta leer y puedes encontrarme alternativamente devorando libros y analizándolos con mucho detenimiento. Escribo fantasía y ciencia ficción, pero nada que merezca publicarse ni siquiera bajo pseudónimo, aún. Bailo lindy hop desde hace años y es lo que me da la vida después de una larga semana de trabajo: echarme un baile y beberme una Voll Damm fresquita. Aún no sé cuál es mi misión o propósito vital, pero ya lo descubriré. <br><br> Espero que te encuentres a gusto en mi blog y... ¡gracias por leerme!',
     ],
   ];
 

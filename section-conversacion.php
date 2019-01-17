@@ -15,21 +15,21 @@
       Mira, aquí están mis últimos posts:',
       'posts' => [
         [
-          'href' => 'https://googleluegoexisto.com/',
-          'src' => 'dl_450_t.jpg',
-          'alt' => 'informe de lectura editorial',
+          'href' => 'https://mtornero.com/blog/talento-para-escribir-mito/',
+          'src' => 'post_1.jpg',
+          'alt' => 'post talento para escribir mito',
         ],[
-          'href' => '#',
-          'src' => 'cenainformal.jpg',
-          'alt' => 'asesoría literaria corrección',
+          'href' => 'https://mtornero.com/blog/los-cien-mil-reinos-lectura-critica/',
+          'src' => 'post_2.jpg',
+          'alt' => 'post lectura crítica de los cien mil reinos j k jemisin',
         ],[
-          'href' => '#',
-          'src' => 'the_body_massamagrell.jpg',
-          'alt' => 'copywriting marketing',
+          'href' => 'https://mtornero.com/blog/los-errores-mas-comunes-de-exposicion-en-narrativa/',
+          'src' => 'post_3.jpg',
+          'alt' => 'post los errores más comunes de exposición en narrativa',
         ],[
-          'href' => '#',
-          'src' => 'diosesenjaulados.jpg',
-          'alt' => 'asesoría literaria',
+          'href' => 'https://mtornero.com/blog/foreshadowing-anticipacion-narrativa/',
+          'src' => 'post_4.jpg',
+          'alt' => '¿Conoces los 4 grados de foreshadowing o anticipación narrativa?',
         ]
       ]
     ],[
@@ -79,7 +79,7 @@
             <?php if (isset($c['posts'])): ?>
               <div class="row">
                 <?php foreach ($c['posts'] as $post): ?>
-                  <div class="col-xs-6 col-sm-3 mt-20">
+                  <div class="col-xs-6 col-sm-6 mt-20">
                     <a href="<?= url($post['href']) ?>">
                       <img src="img/portfolio/<?= $post['src'] ?>" class="img-responsive hvr-bob" alt="<?= $post['alt'] ?>">
                     </a>
