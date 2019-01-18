@@ -41,7 +41,7 @@
       'class' => 'timeline-inverted fadeInRight',
       'delay' => '1.1s',
       'align' => 'text-right',
-      'texto' => 'Pues a ver, hago<br>
+      'texto' => 'Pues, a ver, hago<br>
       <span class="type-it"></span><br><br>
       Digamos que soy <span class="text-primary">CREATIVA</span><br>
       y llevo a cabo <span class="text-primary">PROYECTOS</span>',
