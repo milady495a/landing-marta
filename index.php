@@ -15,11 +15,10 @@
   <title>Marta Tornero | Literatura &amp; web</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="¿Tienes una idea o un libro? Te ayudo a que llegue a tu público con el mismo entusiasmo que tú sentiste cuando se te encendió la bombilla. Querrán más de ti.">
-  <meta name="author" content="Marta Tornero">
-  <meta name="classification" content="Soy asesora, correctora, copywriter... Todo está unido: el copywriting y la literatura van de plasmar lo que te emociona, que tus lectores disfruten y quieran más de ti. Creo que el mundo está lleno de grandes ideas que necesitan un empujoncito, y me honra poder trabajar con personas como tú que quieren hacerlas realidad. Pero, ojo, tú también vas a trabajar. Necesito tu entusiasmo, tu inspiración y tu historia para hacerles llegar a tus lectores esa idea que llevas dentro y necesitas sacar. ¿Qué has venido a ofrecer al mundo?">
-  <meta name="keywords" content="Literatura, corrección, asesoría literaria, copywriting, web">
-  <meta name="publisher" content="Marta Tornero">
+  <meta name="description" content="Blog personal de Marta Tornero Rubio: escritura, literatura, creatividad, marketing, web, crecimiento personal y cualquier otra cosa que le apasione (para bien o para mal).">
+  <meta name="author" content="Marta Tornero Rubio">
+  <meta name="keywords" content="escritura, literatura, creatividad, marketing, web, crecimiento personal">
+  <meta name="publisher" content="Marta Tornero Rubio">
   <meta name="city" content="Valencia">
   <meta name="country" content="ES">
 
