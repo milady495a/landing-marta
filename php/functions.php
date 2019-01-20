@@ -1,6 +1,6 @@
 <?php
 
-$baseurl = "http://";
+$baseurl = "https://";
 
 // Simulamos la funcion url()
 function url($url) {
