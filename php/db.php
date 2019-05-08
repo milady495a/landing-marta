@@ -1,8 +1,8 @@
 <?php
 
-$DB_HOST = '127.0.0.1'; // cuentonokmwriter.mysql.db
-$UName = 'root'; // cuentonokmwriter
-$Pass = ''; // mC6FLQaGs9rEWL4a
+$DB_HOST = 'cuentonokmwriter.mysql.db'; // cuentonokmwriter.mysql.db
+$UName = 'cuentonokmwriter'; // cuentonokmwriter
+$Pass = 'mC6FLQaGs9rEWL4a'; // mC6FLQaGs9rEWL4a
 $DB_Name = 'cuentonokmwriter';
 $base = 'https://mtornero.com/';
 $base_blog = $base . 'blog/';
