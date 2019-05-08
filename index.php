@@ -1,6 +1,7 @@
 <?php
 
   require 'php/functions.php';
+  require 'php/db.php';
 
   $twitter = "https://twitter.com/MartaWriterMuse";
   $facebook = "https://www.facebook.com/writermuse/";

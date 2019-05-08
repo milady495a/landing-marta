@@ -13,25 +13,7 @@
       'align' => 'text-right',
       'texto' => 'Sí, qué tiempos aquellos.<br>
       Mira, aquí están mis últimos posts:',
-      'posts' => [
-        [
-          'href' => 'https://mtornero.com/blog/talento-para-escribir-mito/',
-          'src' => 'post_1.jpg',
-          'alt' => 'post talento para escribir mito',
-        ],[
-          'href' => 'https://mtornero.com/blog/los-cien-mil-reinos-lectura-critica/',
-          'src' => 'post_2.jpg',
-          'alt' => 'post lectura crítica de los cien mil reinos j k jemisin',
-        ],[
-          'href' => 'https://mtornero.com/blog/los-errores-mas-comunes-de-exposicion-en-narrativa/',
-          'src' => 'post_3.jpg',
-          'alt' => 'post los errores más comunes de exposición en narrativa',
-        ],[
-          'href' => 'https://mtornero.com/blog/foreshadowing-anticipacion-narrativa/',
-          'src' => 'post_4.jpg',
-          'alt' => '¿Conoces los 4 grados de foreshadowing o anticipación narrativa?',
-        ]
-      ]
+      'posts' => $posts // Ahora cargan de php/bd.php
     ],[
       'class' => 'mt-150 fadeInLeft',
       'align' => 'text-left',
@@ -80,8 +62,8 @@
               <div class="row">
                 <?php foreach ($c['posts'] as $post): ?>
                   <div class="col-xs-6 col-sm-6 mt-20">
-                    <a href="<?= url($post['href']) ?>">
-                      <img src="img/portfolio/<?= $post['src'] ?>" class="img-responsive hvr-bob" alt="<?= $post['alt'] ?>">
+                    <a href="<?= $post['href'] ?>">
+                      <img src="<?= $post['src'] ?>" class="img-responsive hvr-bob" alt="<?= $post['alt'] ?>">
                     </a>
                   </div>
                 <?php endforeach; ?>
