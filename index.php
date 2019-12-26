@@ -3,7 +3,7 @@
   require 'php/functions.php';
   require 'php/db.php';
 
-  $twitter = "https://twitter.com/MartaWriterMuse";
+  $twitter = "https://twitter.com/MartaTornero";
   $facebook = "https://www.facebook.com/writermuse/";
   $linkedin = "https://www.linkedin.com/in/marta-tornero-rubio";
 
@@ -27,10 +27,9 @@
   <link rel="icon" href="<?= asset('img/fav/mtornero.png', '') ?>" type="image/png">
 
   <link rel="stylesheet" href="<?= asset('bootstrap/dist/css/bootstrap.min.css') ?>">
-  <link rel="stylesheet" href="<?= asset('font-awesome/css/font-awesome.min.css') ?>">
-
   <link rel="stylesheet" href="css/agency.css">
 
+  <script async src="https://kit.fontawesome.com/4f70bfe0b1.js" crossorigin="anonymous"></script>
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

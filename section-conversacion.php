@@ -4,7 +4,7 @@
     [
       'class' => 'fadeInLeft',
       'align' => 'text-left',
-      'texto' => '<i class="fa fa-fw fa-quote-left"></i>
+      'texto' => '<i class="fas fa-fw fa-quote-left"></i>
       ¿<span class="text-primary">Personal</span>?<br>
       ¿Pero eso no es muy "1996"?',
     ],[
@@ -17,7 +17,7 @@
     ],[
       'class' => 'mt-150 fadeInLeft',
       'align' => 'text-left',
-      'texto' => '<i class="fa fa-fw fa-quote-left"></i>
+      'texto' => '<i class="fas fa-fw fa-quote-left"></i>
       ¿Y a qué te dedicas?',
     ],[
       'class' => 'timeline-inverted fadeInRight',
@@ -30,7 +30,7 @@
     ],[
       'class' => 'mt-150 fadeInLeft',
       'align' => 'text-left',
-      'texto' => '<i class="fa fa-fw fa-quote-left"></i>
+      'texto' => '<i class="fas fa-fw fa-quote-left"></i>
       O sea,<br>
       un manitas de la era digital, ¿no?',
     ],[

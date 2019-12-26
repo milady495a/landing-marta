@@ -4,7 +4,7 @@
     [
       'class' => 'fadeInLeft',
       'align' => 'text-left',
-      'texto' => '<i class="fa fa-fw fa-quote-left"></i>
+      'texto' => '<i class="fas fa-fw fa-quote-left"></i>
       Oye, un placer conocerte.',
     ],[
       'class' => 'timeline-inverted fadeInRight',

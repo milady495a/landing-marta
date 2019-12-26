@@ -4,7 +4,7 @@
     [
       'class' => 'fadeInLeft',
       'align' => 'text-left',
-      'texto' => '<i class="fa fa-fw fa-quote-left"></i>
+      'texto' => '<i class="fas fa-fw fa-quote-left"></i>
       ¿Tienes redes?',
     ],[
       'class' => 'timeline-inverted fadeInRight',
@@ -37,7 +37,7 @@
         </ul>
         <div class="text-center">
           <!-- https://publish.twitter.com/# -->
-          <a class="twitter-timeline" data-width="625" data-height="700" data-dnt="true" href="https://twitter.com/MartaWriterMuse?ref_src=twsrc%5Etfw">Tweets by MartaWriterMuse</a>
+          <a class="twitter-timeline" data-width="625" data-height="700" data-dnt="true" href="https://twitter.com/MartaTornero?ref_src=twsrc%5Etfw">Tweets by MartaTornero</a>
           <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       </div>

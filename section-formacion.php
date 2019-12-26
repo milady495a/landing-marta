@@ -15,7 +15,7 @@
             <div class="pad-top">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                <i class="fa fa-bookmark fa-stack-1x fa-inverse"></i>
+                <i class="fas fa-bookmark fa-stack-1x fa-inverse"></i>
               </span>
             </div>
           </div>
@@ -135,7 +135,7 @@
             <div class="pad-top">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                <i class="fa fa-eyedropper fa-stack-1x fa-inverse"></i>
+                <i class="fas fa-eyedropper fa-stack-1x fa-inverse"></i>
               </span>
             </div>
           </div>
@@ -155,7 +155,7 @@
             <div class="pad-top">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                <i class="fa fa-strikethrough fa-stack-1x fa-inverse"></i>
+                <i class="fas fa-strikethrough fa-stack-1x fa-inverse"></i>
               </span>
             </div>
           </div>
@@ -175,7 +175,7 @@
             <div class="pad-top">
               <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                <i class="fa fa-industry fa-stack-1x fa-inverse"></i>
+                <i class="fas fa-industry fa-stack-1x fa-inverse"></i>
               </span>
             </div>
           </div>

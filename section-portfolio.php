@@ -455,7 +455,7 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">
-          <i class="fa fa-fw fa-quote-left"></i> ¿Y qué has hecho?
+          <i class="fas fa-fw fa-quote-left"></i> ¿Y qué has hecho?
         </h2>
         <h3 class="section-subheading text-muted"></h3>
       </div>
@@ -496,7 +496,7 @@
 
     <div class="text-center">
       <a class="btn btn btn-xl" href="#" target="_blank">
-        <i class="fa fa-fw fa-cloud-download" aria-hidden="true"></i> Mi CV
+        <i class="fas fa-fw fa-cloud-download-alt" aria-hidden="true"></i> Mi CV
       </a>
     </div>
 
@@ -526,7 +526,7 @@
                 <?= $p['modal_footer'] ?>
               </ul>
               <button type="button" class="btn btn-primary" data-dismiss="modal">
-                <i class="fa fa-fw fa-th" aria-hidden="true"></i> Volver al portfolio
+                <i class="fas fa-fw fa-th" aria-hidden="true"></i> Volver al portfolio
               </button>
             </div>
           </div>
