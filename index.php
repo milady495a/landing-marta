@@ -13,12 +13,12 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Marta Tornero | Literatura &amp; web</title>
+  <title>Marta Tornero | Proceso creativo</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Blog personal de Marta Tornero Rubio: escritura, literatura, creatividad, marketing, web, crecimiento personal y cualquier otra cosa que le apasione (para bien o para mal).">
+  <meta name="description" content="Blog sobre el proceso creativo de escritores y artistas.">
   <meta name="author" content="Marta Tornero Rubio">
-  <meta name="keywords" content="escritura, literatura, creatividad, marketing, web, crecimiento personal">
+  <meta name="keywords" content="creatividad, literatura, escritura, crecimiento personal">
   <meta name="publisher" content="Marta Tornero Rubio">
   <meta name="city" content="Valencia">
   <meta name="country" content="ES">
