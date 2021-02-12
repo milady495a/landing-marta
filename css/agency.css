@@ -811,7 +811,7 @@ img::-moz-selection {
   line-height:35px
 }
 
-#portada { padding: 100px 0 0; }
+#portada { padding: 20px 0 0; }
 .cuadroHead { padding: 0; }
 .cuadroHead > img {
   display: block;

@@ -3,37 +3,37 @@
   $portfolios = [
     [
       'src' => 'img_portada_1.jpg',
-      'alt' => '',
+      'alt' => 'foto',
     ],[
       'src' => 'img_portada_2.jpg',
-      'alt' => 'copywriting marketing',
+      'alt' => 'copywriting',
     ],[
       'src' => 'img_portada_3.jpg',
-      'alt' => 'asesoría literaria corrección',
+      'alt' => 'marketing',
     ],[
       'src' => 'img_portada_4.jpg',
-      'alt' => 'corrección ortotipográfica',
+      'alt' => 'asesoría literaria',
     ],[
       'src' => 'img_portada_5.jpg',
       'alt' => 'corrección ortotipográfica',
     ],[
       'src' => 'img_portada_6.jpg',
-      'alt' => 'asesoría web corrección',
+      'alt' => 'asesoría web',
     ],[
       'src' => 'img_portada_7.jpg',
       'alt' => 'informe de lectura',
     ],[
       'src' => 'img_portada_8.jpg',
-      'alt' => 'informe de lectura editorial',
+      'alt' => 'editorial',
     ],[
       'src' => 'img_portada_9.jpg',
-      'alt' => 'copyediting corrección de estilo editing',
+      'alt' => 'corrección',
     ],[
       'src' => 'img_portada_10.jpg',
-      'alt' => 'asesoría literaria corrección',
+      'alt' => 'copyediting',
     ],[
       'src' => 'img_portada_11.jpg',
-      'alt' => 'copywriting marketing',
+      'alt' => 'corrección de estilo editing',
     ],[
       'src' => 'img_portada_12.jpg',
       'alt' => 'asesoría literaria',
@@ -45,16 +45,16 @@
       'alt' => 'copywriting marketing',
     ],[
       'src' => 'img_portada_15.jpg',
-      'alt' => 'asesoría literaria corrección para escritores writermuse',
+      'alt' => 'corrección para escritores',
     ],[
       'src' => 'img_portada_16.jpg',
-      'alt' => 'asesoría literaria corrección para escritores writermuse',
+      'alt' => 'asesoría literaria',
     ],[
       'src' => 'img_portada_17.jpg',
-      'alt' => 'asesoría literaria corrección para escritores writermuse',
+      'alt' => 'corrección',
     ],[
       'src' => 'img_portada_18.jpg',
-      'alt' => 'asesoría literaria corrección para escritores writermuse',
+      'alt' => 'writermuse',
     ]
   ];
 
@@ -68,7 +68,8 @@
       <div class="titulaco">
         ¡Hola! Soy <span class="text-primary">Marta</span><br>
         y este es mi<br>
-        blog <span class="text-primary">personal</span>
+        blog <span class="text-primary">personal</span><br>
+        <a href="blog" class="btn btn-xl">Ir al Blog</a>
       </div>
 
       <!-- Aqui generamos los cuadrados de fondo -->

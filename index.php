@@ -44,13 +44,13 @@
 
   <?php
 
-    include 'section-barra-superior.php';
+    // include 'section-barra-superior.php';
     include 'section-portada.php';
 
     // include 'section-gatetes.php';
 
-    include 'section-conversacion.php';
-    include 'section-portfolio.php';
+    // include 'section-conversacion.php';
+    // include 'section-portfolio.php';
 
     // include 'section-formacion.php';
     // include 'section-sobre-mi.php';
@@ -60,10 +60,10 @@
     // <!-- Contact Section (JS cargado al final)-->
     // <div class="typeform-widget" id="contact" data-url="https://milady495a.typeform.com/to/OEhfrY" style="width:100%;height:750px"></div>
 
-    include 'section-twitter.php';
-    include 'section-desplegables.php';
+    // include 'section-twitter.php';
+    // include 'section-desplegables.php';
 
-    include 'section-conversacion-final.php';
+    // include 'section-conversacion-final.php';
 
     // include 'section-recursos-gratis.php';
   ?>
