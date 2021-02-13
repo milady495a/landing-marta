@@ -815,7 +815,7 @@ img::-moz-selection {
 .cuadroHead { padding: 0; }
 .cuadroHead > img {
   display: block;
-  filter: blur(4px);
+  filter: blur(7px);
   transition: filter 0.15s linear;
 }
 .cuadroHead > img:hover {
