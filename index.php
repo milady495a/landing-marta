@@ -1,12 +1,12 @@
 <?php
 
-  require 'php/functions.php';
+  // require 'php/functions.php';
   // require 'php/db.php';
 
   $twitter = "https://twitter.com/MartaTornero";
   $facebook = "https://www.facebook.com/writermuse/";
   $linkedin = "https://www.linkedin.com/in/marta-tornero-rubio";
-  $url = $baseurl."mtornero.com/";
+  $url = "http://mtornero.com/";
 
 ?>
 
