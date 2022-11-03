@@ -1,7 +1,7 @@
 <?php
 
   require 'php/functions.php';
-  require 'php/db.php';
+  // require 'php/db.php';
 
   $twitter = "https://twitter.com/MartaTornero";
   $facebook = "https://www.facebook.com/writermuse/";
@@ -68,21 +68,18 @@
     // include 'section-recursos-gratis.php';
   ?>
 
-
-  <?php /*
-  */ ?>
-
   <?php include 'section-footer.php' ?>
 
   <script src="<?= asset('jquery/dist/jquery.min.js') ?>"></script>
   <script src="<?= asset('bootstrap/dist/js/bootstrap.min.js') ?>"></script>
+
+  <?php /*
   <script src="<?= asset('isotope-layout/dist/isotope.pkgd.min.js') ?>"></script>
   <script src="<?= asset('imagesloaded/imagesloaded.pkgd.min.js') ?>"></script>
   <script src="<?= asset('typeit/dist/typeit.min.js') ?>"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
-
 
   <script>
 
@@ -148,6 +145,7 @@
     }, false)
 
   </script>
+  */ ?>
 
 </body>
 </html>
