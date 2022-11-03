@@ -6,7 +6,7 @@
   $twitter = "https://twitter.com/MartaTornero";
   $facebook = "https://www.facebook.com/writermuse/";
   $linkedin = "https://www.linkedin.com/in/marta-tornero-rubio";
-  $url = "http://mtornero.com/";
+  $url = "https://mtornero.com/";
 
 ?>
 
@@ -26,9 +26,9 @@
 
   <!-- Favicon -->
   <link rel="icon" href="<?=$url?>img/fav/mtornero.png" type="image/png">
-  <link rel="stylesheet" href="<?=$url?>node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="css/agency.css">
+  <link rel="stylesheet" href="<?=$url?>node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?=$url?>css/agency.css">
 
   <script async src="https://kit.fontawesome.com/4f70bfe0b1.js" crossorigin="anonymous"></script>
 
