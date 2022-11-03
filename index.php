@@ -6,6 +6,7 @@
   $twitter = "https://twitter.com/MartaTornero";
   $facebook = "https://www.facebook.com/writermuse/";
   $linkedin = "https://www.linkedin.com/in/marta-tornero-rubio";
+  $url = $baseurl."mtornero.com/";
 
 ?>
 
@@ -24,9 +25,9 @@
   <meta name="country" content="ES">
 
   <!-- Favicon -->
-  <link rel="icon" href="<?= asset('img/fav/mtornero.png', '') ?>" type="image/png">
+  <link rel="icon" href="<?=$url?>img/fav/mtornero.png" type="image/png">
+  <link rel="stylesheet" href="<?=$url?>node_modules/bootstrap/dist/css/bootstrap.min.css">
 
-  <link rel="stylesheet" href="<?= asset('bootstrap/dist/css/bootstrap.min.css') ?>">
   <link rel="stylesheet" href="css/agency.css">
 
   <script async src="https://kit.fontawesome.com/4f70bfe0b1.js" crossorigin="anonymous"></script>
@@ -70,8 +71,8 @@
 
   <?php include 'section-footer.php' ?>
 
-  <script src="<?= asset('jquery/dist/jquery.min.js') ?>"></script>
-  <script src="<?= asset('bootstrap/dist/js/bootstrap.min.js') ?>"></script>
+  <script src="<?=$url?>node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="<?=$url?>node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
   <?php /*
   <script src="<?= asset('isotope-layout/dist/isotope.pkgd.min.js') ?>"></script>
